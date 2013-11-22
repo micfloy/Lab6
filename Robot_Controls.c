@@ -37,8 +37,8 @@ void initTimer() {
 	TA0CCR0 = 100;  // set signal period to 100 clock cycles (~100 microseconds)
 	TA1CCR0 = 100;
 
-	TA0CCR1 = 100;
-	TA1CCR1 = 100;
+	TA0CCR1 = 50;
+	TA1CCR1 = 50;
 
 	TA0CCTL1 |= OUTMOD_5;
 	TA1CCTL1 |= OUTMOD_5;
